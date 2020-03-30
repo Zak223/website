@@ -23,7 +23,7 @@ fn main() {
         .unwrap();
 
     rocket::custom(cfg)
-        .mount("/", routes![index, contact, about, apply])
+        .mount("/", routes![index])
         .mount("/", StaticFiles::from("static"))
         .attach(Template::fairing())
         .launch();
