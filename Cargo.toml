@@ -1,5 +1,5 @@
 [package]
-name = "ToadHut-Website"
+name = "ToadHutWebsite"
 version = "0.1.0"
 authors = ["Synth <synth9283@gmail.com>"]
 edition = "2018"
