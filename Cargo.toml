@@ -1,0 +1,15 @@
+[package]
+name = "ToadHut Website"
+version = "0.1.0"
+authors = ["Synth <synth9283@gmail.com>"]
+edition = "2020"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.4"
+
+[dependencies.rocket_contrib]
+version = "0.4.4"
+default-features = false
+features = ["handlebars_templates", "tera_templates", "serve"]
