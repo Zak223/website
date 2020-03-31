@@ -20,7 +20,7 @@ fn main() {
     let cfg = Config::build(Environment::Production)
         .address("0.0.0.0")
         .port(8081)
-        .secret_key(env::var("SECRET_KEY"))
+        .secret_key(&env::var("SECRET_KEY"))
         .unwrap();
 
     rocket::custom(cfg)
