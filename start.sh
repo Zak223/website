@@ -10,5 +10,5 @@ rustup override set nightly
 while true
 do
 git fetch; git pull
-cargo run --release
+bash -c "exec -a thweb cargo run --release"
 done
