@@ -13,4 +13,3 @@ rocket = "0.4.4"
 version = "0.4.4"
 default-features = false
 features = ["handlebars_templates", "tera_templates", "serve"]
-# I LOVE YOU

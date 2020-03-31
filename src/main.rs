@@ -1,6 +1,7 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 #[macro_use] extern crate rocket;
 
+use std::env;
 use rocket::get;
 use rocket_contrib;
 use rocket_contrib::templates::Template;
@@ -19,7 +20,7 @@ fn main() {
     let cfg = Config::build(Environment::Production)
         .address("0.0.0.0")
         .port(8081)
-        .secret_key("VpL1gPPTPBStZsKLQq4tDJITTu5pkjowWmqrMZVk++8=")
+        .secret_key(env::var("SECRET_KEY"))
         .unwrap();
 
     rocket::custom(cfg)
