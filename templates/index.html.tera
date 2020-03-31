@@ -1,6 +1,5 @@
 <html>
-<link rel="icon" 
-      type="static/src/favicon.ico" >
+<link rel=“favicon” href=“static/src/img”>
 <head>
     <title>ToadHut</title>
     <link rel="stylesheet" href="src/css/index.css">
