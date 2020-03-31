@@ -1,6 +1,6 @@
 <html>
-<link rel=“favicon” href=“static/src/img/favicon.ico”> <head>
 <title>ToadHut</title>
+<link rel="shortcut icon" type="static/src/img" href="img/favicon.ico"
 <link rel="stylesheet" href="src/css/index.css">
 </head>
 
