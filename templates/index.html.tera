@@ -1,5 +1,5 @@
 <html>
-<link rel="SHORTCUT ICON" href="favicon.ico" type="img/x-icon" />
+<link rel="SHORTCUT ICON" href="favicon.ico" type="static/src/img" />
 <head>
     <title>ToadHut</title>
     <link rel="stylesheet" href="src/css/index.css">
