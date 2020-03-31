@@ -1,7 +1,8 @@
 <html>
-<link rel=“favicon” href=“static/src/img/favicon.ico”> <head>
-<title>ToadHut</title>
-<link rel="stylesheet" href="src/css/index.css">
+<head>
+    <link rel="shortcut icon" href="src/img/favicon.ico">
+    <title>ToadHut</title>
+    <link rel="stylesheet" href="src/css/index.css">
 </head>
 
 <body>
